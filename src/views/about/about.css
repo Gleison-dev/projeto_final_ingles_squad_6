@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+      }
+
+section {
+        display: flex;
+        height: 98vh;
+        width: 100%;
+        background-color: black;
+      }
+
+      #img{
+        width: 50%;
+        background-color: brown;
+      }
+
+      #text{
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 50px;
+      }
+
+      #text h1, p{
+        color: white;
+      }
+
+      #text h1{
+        font-size: 30px;
+      }
+
+      #text p{
+       padding-top: 20px;
+        font-size: 23px;
+      }
+
+      footer {
+        background-color: black;
+        padding: 10px;
+        text-align: center;
+      }
