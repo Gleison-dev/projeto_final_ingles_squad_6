@@ -1,0 +1,167 @@
+body{
+    background-image: url(../../assets/images/citystreet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 5rem);
+}
+
+
+.container{
+  border-color:  #060606;
+  border-style: solid;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 3rem;
+  padding: 3%;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.5s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 100%;
+  margin-bottom: 5%;
+  width: 40%;
+  top: 50px;
+  transform: scale(1.2);
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #060606;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.form div{
+  margin-bottom: 3%;
+  display: flex;
+}
+  
+.form a{
+  visibility: hidden;
+  margin-top: -28px;  
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+    
+}
+input[type=number] { 
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+  
+.inputStyle{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 2rem;
+}
+  
+.inputStyle input {
+  padding: 2% 1rem;
+  border-radius: 5px;
+  border: 1px solid #161515;
+  background-color: #161515;
+  margin: 5px;
+}
+  
+.inputStyle textarea{
+  padding: 2%;
+  width: 100%;
+  border-radius: 5px;
+  resize: none;
+  color: white;
+}
+
+.inputName{
+  display: flex;
+}
+
+  
+.title{
+  display: flex;
+  flex-direction: column; 
+}
+  
+h1{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2px;
+}
+  
+h2{
+  font-size: 16px;
+  margin-bottom: 3%;
+}
+
+
+.center{
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .center input{
+    margin-right: 5px;
+  }
+
+  .button{
+    display:flex;
+    justify-content: center;
+  }
+  
+  #btnEnviar{
+    outline:none;
+    text-align: center;
+    border-radius:5px;
+    background-color: transparent;
+    border: 2px solid #A9120E;
+    color:#ffffff;
+    letter-spacing:1px;
+    text-shadow:0;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    top: 50%;
+    height: 30px;
+    width: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900; 
+    margin-right: 15px;
+    background: #A9120E;
+  }
+  
+
+  @media (max-width: 1440px) {
+    .container{
+      width: 40%;
+      top: 200px;
+    }
+  }
+  @media (max-width: 768px) {
+    .container{
+      width: 40%;
+      top: 200px;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .container{
+      width: 70%;
+      top: 59px;
+    }
+    .form div {
+      display: block;
+    }
+    .inputStyle input{
+      margin: 5px;
+    }
+  
+  }
