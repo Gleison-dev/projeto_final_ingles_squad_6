@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto Mono', monospace;
     background-color: black;
 }
 
+
+/* header */
 #imageLogo {
     width: 300px;
     height: 50px;
@@ -33,4 +40,110 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+
+/* pagecontent */
+
+.myGameListBox {
+    color: aliceblue;
+    font-size: 100%;
+    display: flex;
+    padding: 8%;
+    flex-direction: row;
+    align-items: center;
+    background-color: --middle_grey;
+    justify-content: center;
+}
+
+
+
+.myGameListBox img {
+    margin-right: 8%;
+    width:40%;
+    height:40%;
+}
+
+.recomendationsBox {
+    color: aliceblue;
+    font-size: 100%;
+    flex-direction: row-reverse;
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recomendationsBox img {
+    margin-left:7%;
+    width:40%;
+    height:40%;
+}
+
+.gamecardBox {
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    font-size: 100%;
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gamecardBox img {
+    margin-right: 10%;
+    width:40%;
+    height:40%;
+
+}
+
+.community {
+    /* display: inline-block; */
+    position: relative;
+
+}
+.community img {
+    position: absolute;
+    width: 100%;
+}
+
+.texts {
+    position: relative;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 28%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: ;
+}
+.joinCommunity {
+    back
+}
+
+.joinCommunity h1 {
+    align-self: center;
+    font-size: 30pt;
+    margin-bottom: 5%;
+}
+.joinCommunity  p {
+    padding-right: 40%;
+    font-size: 14pt;
+}
+
+.followUs {
+    margin-left: 15%;
+    margin-bottom: 1.44%;
+}
+
+.followUs h1{
+    font-size: 30pt;
+    margin-bottom: 10%;
+}
+
+.followUs p {
+    font-size: 14pt;
 }
