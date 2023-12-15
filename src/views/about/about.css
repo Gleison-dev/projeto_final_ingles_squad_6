@@ -7,14 +7,21 @@
 
 section {
         display: flex;
-        height: 98vh;
+        height: 96vh;
         width: 100%;
         background-color: black;
       }
 
-      #img{
+      #container{
         width: 50%;
-        background-color: brown;
+        overflow: hidden;
+      }
+      
+
+      #img{
+      height: 100%;
+      object-fit: cover; /* Ajusta o comportamento da imagem para cobrir totalmente a div */
+      transform: translateX(-12%);
       }
 
       #text{
@@ -28,6 +35,7 @@ section {
 
       #text h1, p{
         color: white;
+        font-family: 'Poppins', sans-serif;
       }
 
       #text h1{
@@ -43,4 +51,8 @@ section {
         background-color: black;
         padding: 10px;
         text-align: center;
+      }
+
+      .logoFooter {
+        width: 8%;
       }
