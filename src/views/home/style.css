@@ -47,7 +47,7 @@ a:hover {
 
 .myGameListBox {
     color: aliceblue;
-    font-size: 100%;
+    /* font-size: 5pw; */
     display: flex;
     padding: 8%;
     flex-direction: row;
@@ -56,6 +56,9 @@ a:hover {
     justify-content: center;
 }
 
+.myGameListBox p {
+    font-size: 2vw;
+}
 
 
 .myGameListBox img {
@@ -66,7 +69,7 @@ a:hover {
 
 .recomendationsBox {
     color: aliceblue;
-    font-size: 100%;
+    font-size: 2vw;
     flex-direction: row-reverse;
     padding: 10%;
     display: flex;
@@ -84,7 +87,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     color: aliceblue;
-    font-size: 100%;
+    font-size: 2vw;
     padding: 10%;
     display: flex;
     align-items: center;
@@ -126,12 +129,12 @@ a:hover {
 
 .joinCommunity h1 {
     align-self: center;
-    font-size: 30pt;
+    font-size: 3vw;
     margin-bottom: 5%;
 }
 .joinCommunity  p {
     padding-right: 40%;
-    font-size: 14pt;
+    font-size: 1.5vw;
 }
 
 .followUs {
@@ -140,10 +143,10 @@ a:hover {
 }
 
 .followUs h1{
-    font-size: 30pt;
+    font-size: 3vw;
     margin-bottom: 10%;
 }
 
 .followUs p {
-    font-size: 14pt;
+    font-size: 1.5vw;
 }
