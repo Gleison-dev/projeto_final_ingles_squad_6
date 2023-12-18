@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: url(../../assets/images/citystreet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+    overflow: hidden;
+}
+
+#imageLogo {
+    width: 300px;
+    height: 50px;
+}
+
+.contentHeader {
+    display: flex;
+    width: 100%;
+    margin: 1%;
+    justify-content: space-around;
+}
+
+
+#menu {
+    display: flex;
+    margin-left: 150px;
+}
+
+li {
+    list-style: none;
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    border-color: #060606;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 3%;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 40%;
+    top: 50px;
+    transform: scale(1.2);
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #060606;
+    overflow: hidden;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form div {
+    margin-bottom: 3%;
+    display: flex;
+}
+
+.form a {
+    visibility: hidden;
+    margin-top: -28px;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.inputStyle {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.inputStyle input {
+    padding: 2% 1rem;
+    border-radius: 5px;
+    border: 1px solid #161515;
+    background-color: #161515;
+    margin: 5px;
+    color: white;
+}
+
+.inputName {
+    display: flex;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 3%;
+}
+
+.center {
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.center input {
+    margin-right: 5px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+#btnEnviar {
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #A9120E;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    top: 50%;
+    height: 30px;
+    width: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    margin-right: 15px;
+    background: #A9120E;
+}
+
+@media (max-width: 1233px) {
+    .container {
+        width: 60%; 
+        top: 100px; 
+    }
+
+    .inputStyle input {
+       display: flex;
+    }
+
+    .form div {
+        display: block;
+    }
+
+    .contentHeader a{
+        font-size: 15px;
+    }
+
+    #imageLogo {
+        max-width: 100%; 
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 50%; 
+        top: 100px;
+    }
+
+    .inputStyle input {
+        width: 100%; 
+    }
+
+    h1 {
+        font-size: 30px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 50%; 
+        top: 50px; 
+    }
+    .inputStyle input {
+        margin: 5px;
+        width: 100%; 
+    }
+
+    h1 {
+        font-size: 24px; 
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.logoFooter {
+    width: 8%;
+}
