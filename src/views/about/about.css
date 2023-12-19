@@ -57,15 +57,16 @@ section {
       #text h1, p{
         color: white;
         font-family: 'Poppins', sans-serif;
+        padding-right: 20px;
       }
 
       #text h1{
-        font-size: 30px;
+        font-size: max(2vw, 25px);
       }
 
       #text p{
        padding-top: 20px;
-        font-size: 20px;
+        font-size: max(1.2vw, 11px);
       }
 
       footer {
@@ -79,9 +80,6 @@ section {
       }
 
       @media (max-width: 1233px){
-          #text p{
-            font-size: 17px;
-          }
 
           .contentHeader a{
             font-size: 15px;
@@ -94,16 +92,7 @@ section {
     }
         
             
-        @media (max-width: 768px){
-          #text p{
-            font-size: 15px;
-          }
-        }
-
         @media (max-width: 480px){
-         #text p{
-          font-size: 15px;
-        }
         container{
           width: 0;
         }
