@@ -30,7 +30,7 @@ body {
 li {
     list-style: none;
     margin-left: 25px;
-    font-size: 25px;
+    font-size: max(2vw);
 }
 
 a {
@@ -147,10 +147,6 @@ a:hover {
     padding-top: 28%;
     padding-left: 5%;
     padding-right: 5%;
-    background-color: ;
-}
-.joinCommunity {
-    back
 }
 
 .joinCommunity h1 {
@@ -175,4 +171,18 @@ a:hover {
 
 .followUs p {
     font-size: 1.5vw;
+}
+
+@media screen and (max-width: 980px) {
+    #imageLogo {
+        display: none;
+    }
+
+    #menu {
+        margin-left: 0%;
+    }
+
+    .contentHeader {
+        justify-content: center;
+    }
 }

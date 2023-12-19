@@ -232,3 +232,18 @@ footer {
 .logoFooter {
     width: 8%;
 }
+
+
+@media screen and (max-width: 980px) {
+    #imageLogo {
+        display: none;
+    }
+
+    #menu {
+        margin-left: 0%;
+    }
+
+    .contentHeader {
+        justify-content: center;
+    }
+}
