@@ -42,7 +42,33 @@ a:hover {
     text-decoration: underline;
 }
 
+/* home */
 
+.home {
+    position: relative;
+    width: 100%;
+    height: 46.5vw;
+}
+.home img {
+        position: absolute;
+        width: 100%;
+}
+.homeText h1 {
+    color: whitesmoke;
+    padding-top: 10%;
+    padding-left:7%;
+    padding-right:60%;
+    position: relative;  
+    font-size: 4vw;
+}
+.homeText p {
+    color: whitesmoke;
+    padding-top: 1%;
+    padding-left:7%;
+    padding-right:50%;
+    position: relative;  
+    font-size: 2vw;
+}
 /* pagecontent */
 
 .myGameListBox {
